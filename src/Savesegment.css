@@ -1,0 +1,111 @@
+.heading{
+    background-color: rgb(54, 218, 212);
+    color:white;
+    margin: 0px;
+    padding: 10px 20px 10px 20px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.heading h2{
+    margin: 0px;
+}
+
+
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Add some padding to ensure it doesn't touch the edges */
+    box-sizing: border-box; /* Ensure padding is included in total width */
+  }
+  
+  .popup {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+
+.sub-content{
+    padding: 20px;
+}
+
+input {
+    margin-bottom: 10px; /* Space below input */
+    padding: 8px; /* Padding inside input */
+    width: 80%; /* Full width */
+    border: 1px solid #ccc; /* Border style */
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  .traits {
+    display: flex; /* Use flex to align items */
+    justify-content: flex-end; /* Align items to the right */
+    width: 80%; /* Full width to ensure alignment works */
+    margin: 18px 30px 18px 80px;
+  }
+  
+  .trait {
+    display: flex; /* Flexbox for traits */
+    align-items: center; /* Center items vertically */
+    margin-left: 10px; /* Space between traits */
+  }
+  .user-circle {
+    width: 10px; /* Circle diameter */
+    height: 10px; /* Circle diameter */
+    background-color: green; /* Circle color */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 5px; /* Space between circle and text */
+  }
+
+  .group-circle {
+    width: 10px; /* Circle diameter */
+    height: 10px; /* Circle diameter */
+    background-color: red; /* Circle color */
+    border-radius: 50%; /* Make it a circle */
+    margin-right: 5px; /* Space between circle and text */
+  }
+  
+  .button-container {
+    display: flex; /* Flexbox for button alignment */
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 10px; /* Space above buttons */
+  }
+  
+  button {
+    padding: 10px 15px;
+    cursor: pointer;
+  }
+
+  select {
+    margin-top: 5px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .add-schema-link {
+    color: rgb(54, 218, 212);
+  }
+
+  .schema-container{
+    margin: 20px 15px;
+  }
+  
